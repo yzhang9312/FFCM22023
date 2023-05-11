@@ -1,0 +1,62 @@
+---
+layout: default
+---
+
+<h1>Validation of {{ page.title }}</h1>
+<h2>Table of contents</h2>
+<h3>Thermodynamic conditions</h3>
+<ul>
+    <li>
+        Temperature $T$ (K): {{ page.temp }}
+    </li>
+    <li>
+        Pressure $p$ (atm): {{ page.pres }}
+    </li>
+    <li>
+        Equivalence Ratio $\phi$: {{ page.phi }}
+    </li>
+    <li>
+        Composition $X$: {{ page.composition }}
+    </li>
+</ul>
+
+<h3>Experimental measurement</h3>
+<ul>
+    <li>
+        Source: experimental data from {{ page.shortname }}
+    </li>
+    <li>
+        Experiment type: {{ page.datatype }}
+    </li>
+    <li>
+        Experiment value: {{ page.exp_nominal }} {{ page.unit }}
+    </li>
+    <li>
+        Experimental uncertainty: {{ page.exp_uq }}
+    </li>
+</ul>
+
+<h3>Model predictions</h3>
+<li>
+    Trial model prediction: {{ page.trial_nominal }} {{ page.unit }}
+</li>
+<li>
+    Trial model uncertainty: {{ page.trial_uq }}
+</li>
+<li>
+    Optimized model prediction: {{ page.opt_nominal }} {{ page.unit }}
+</li>
+<li>
+    Optimized model uncertainty: {{ page.opt_uq }}
+</li>
+
+<h3>FFCM-2 performance</h3>
+<p align="center">
+<img src="{{ page.perf_plot }}"  width="500" height="500">
+</p>
+
+<h3>Sensitivity and impact factor</h3>
+<img src="{{ page.sens_plot }}"  width="1000" height="800">
+
+<h3>Reference</h3>
+[{{ page.shortname }}]: {{ page.reference }}

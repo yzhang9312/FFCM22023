@@ -1,0 +1,41 @@
+- name: Yue Zhang
+  affiliation: Stanford University
+  email: yzhang16@stanford.edu
+  photo: assets/images/members/yuezhang.png
+  website: https://profiles.stanford.edu/82053
+  status: current
+
+- name: Wendi Dong
+  affiliation: Stanford University
+  email: dongwd@stanford.edu
+  photo: assets/images/members/wendidong.png
+  website: https://profiles.stanford.edu/kevin-dong
+  status: current
+
+- name: Dr. Laurien A. Vandewalle
+  affiliation: Stanford University
+  email: laurienvandewalle@gmail.com
+  photo: assets/images/members/laurien.png
+  website: https://www.linkedin.com/in/laurien-vandewalle/
+  status: previous
+
+- name: Dr. Rui Xu
+  affiliation: Stanford University
+  email: ruixu@stanford.edu
+  photo: assets/images/members/ruixu.png
+  website: https://ruixucomp.sites.stanford.edu/
+  status: previous
+
+- name: Dr. Gregory P. Smith
+  affiliation: SRI International
+  email: gregory.smith@sri.com
+  photo: assets/images/members/gregsmith.png
+  website: https://www.sri.com/bios/gregory-smith/
+  status: current
+
+- name: Prof. Hai Wang
+  affiliation: Stanford University
+  email: haiwang@stanford.edu
+  photo: assets/images/members/haiwang.png
+  website: https://me.stanford.edu/people/hai-wang
+  status: current
